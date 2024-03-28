@@ -13,15 +13,13 @@ toc: true
 
 # (Vector Normalization)란?
 
-____
+----------
 
 **벡터 정규화란 벡터의 방향을 유지한 채로** 
 
 **벡터의 크기를 1로 만들어주는 과정이다.**
 
-____
-
-<br/>
+-----
 
 ```c#
 Vector3 moveDir = (Vector3.forward * vertical) + (Vector3.right * horizontal);
@@ -64,18 +62,12 @@ translate.Translate(moveDirection * moveSpeed * Time.deltaTime);
 
 방향 성분만을 고려하면 문제를 해결할 수 있다.   
 
-<br/>
-
-____
-
 
 **이때 필요한 것이 '벡터 정규화' 이다.**
 
 <br/>
 
 코드를 다음과 같이 바꾸면
-
-<br/>
 
 ```c#
 Vector3 moveDir = (Vector3.forward * vertical) + (Vector3.right * horizontal);
