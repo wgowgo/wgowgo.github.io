@@ -13,9 +13,15 @@ toc: true
 
 # (Vector Normalization)란?
 
+
+
+
+
 ##### 벡터 정규화란 벡터의 방향을 유지한 채로 
 
 ##### 벡터의 크기를 1로 만들어주는 과정이다.
+
+
 
 
 
@@ -27,9 +33,13 @@ translate.Translate(moveDirection * moveSpeed * Time.deltaTime);
 
 
 
+
+
 벡터의 덧셈 연산을 이용하여 방향벡터를 하나의 벡터로 만들고 
 
 이를 속도에 곱하면 전후좌우로 이동할 수 있을 뿐만 아니라 대각선으로도 이동할 수 있다. 
+
+
 
 
 
@@ -60,7 +70,7 @@ translate.Translate(moveDirection * moveSpeed * Time.deltaTime);
 
 
 
-## 이때 필요한 것이 벡터 정규화이다.
+**이때 필요한 것이 '벡터 정규화' 이다.**
 
 
 
@@ -68,11 +78,15 @@ translate.Translate(moveDirection * moveSpeed * Time.deltaTime);
 
 코드를 다음과 같이 바꾸면
 
+
+
 ```c#
 Vector3 moveDir = (Vector3.forward * vertical) + (Vector3.right * horizontal);
 
 translate.Translate(moveDirection.normalized * moveSpeed * Time.deltaTime);
 ```
+
+
 대각선으로 이동해도 크기가 1로 변환되어 
 
 같은 속도로 이동할 수 있게 된다.
