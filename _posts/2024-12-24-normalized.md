@@ -1,6 +1,6 @@
 ---
 title: "Unity 벡터 정규화(Vector Normalization)"
-date: 2024-12-23 00:00:00 +800
+date: 2024-12-24 00:00:00 +800
 categories: [Unity]
 tags: [Vector]
 use_math: true
