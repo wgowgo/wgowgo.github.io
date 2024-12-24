@@ -60,7 +60,8 @@ $$
 \vec{Vector} = (1,1)
 $$
 
-![image-20241224123110192](https://github.com/user-attachments/assets/7396d3a6-6fff-41d3-9198-9ce5615c9799)
+![image-20241224123110192](https://github.com/user-attachments/assets/fe9a4af7-4b9c-4270-93db-a56caeb7726b)
+
 
 이제 벡터의 크기를 구해야 하는데, 위 직각 삼각형의 빗변의 길이를 확인해 보면 된다.
 
