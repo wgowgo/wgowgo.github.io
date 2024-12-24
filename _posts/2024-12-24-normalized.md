@@ -8,7 +8,6 @@ use_math: true
 ---
 
 # [Unity\] 벡터 정규화
-
 # (Vector Normalization)란?
 
 **벡터 정규화(Vecotr Normalization)** : 임의의 길이를 가진 벡터를 
