@@ -55,6 +55,7 @@ translate.Translate(moveDirection * moveSpeed * Time.deltaTime);
 <br/>
 
 Vector라는 이름을 가진 2차원 벡터를 하나 생성하겠다.
+
 $$
 \vec{Vector} = (1,1)
 $$
@@ -63,8 +64,9 @@ $$
 이제 벡터의 크기를 구해야 하는데, 위 직각 삼각형의 빗변의 길이를 확인해 보면 된다.
 
 빗변의 길이를 구하기 위해서는 **피타고라스 정리**를 사용하면 된다.
+
 $$
-a^2 + b^2 = c^2 
+a^2 + b^2 = c^2
 $$
 
 $$
