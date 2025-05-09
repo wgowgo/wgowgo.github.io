@@ -2,7 +2,7 @@
 title: "자료구조 - 리스트, 배열"
 date: 2025-05-09 00:00:00 +0
 categories: [Data Structure]
-tags: [List], [Array]
+tags: [List, Array]
 use_math: true
 
 
